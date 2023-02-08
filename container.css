@@ -1,0 +1,25 @@
+.container{
+    max-width: 100%;
+    position: relative;
+}
+.container-md{
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+.container-s{
+    max-width: 600px;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col-6{
+    flex-basis: 45%;
+    position: relative;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}

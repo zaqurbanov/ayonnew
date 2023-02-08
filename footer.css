@@ -1,0 +1,52 @@
+footer{
+    margin-top: 10rem;
+    background-color: #00215B;
+    color: white;
+}
+footer .row{
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+footer .logo{
+    width: max(90px,4vw);
+    margin: auto;
+}
+footer .row a{
+    background-color: white;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .contact-us h4{
+    font-family: 'Kanit', sans-serif; 
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+footer .contact-us h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.footer-text{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}

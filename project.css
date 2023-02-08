@@ -1,0 +1,53 @@
+
+#project-section .container-md{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+}
+.project-img{
+    
+    width: 50%;
+    overflow: hidden;
+  
+}
+.project-img img{
+    width: 100%;
+    height: 100%;
+  transition: all 0.5s;
+}
+.project-img img:hover{
+    transform: scale(1.1);
+    width: 100%;
+}
+.project-content{
+    flex: 1;
+    padding: 5rem;
+    background-color: #D2153D;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.project-content h2{
+    font-family: 'Kanit', sans-serif;
+color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.project-content p{
+
+    
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: white;
+}
+.project-button{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 3rem;
+}
