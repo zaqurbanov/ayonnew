@@ -66,12 +66,7 @@ padding: 2rem 0rem;
     padding: 1rem;
     transition: all 0.5s;
 }
-.list-item-link:hover{
-    box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.09);
-    border-radius: 15px;
-    padding: 1rem;
-    color: #D2153D;
-}
+
 .menu-icon{
     display: none;
  
